@@ -79,99 +79,116 @@
 }
 
 .favorite-card img {
-  max-width: 100%;}
+  max-width: 100%;
+}
 
-  .container {
+.container {
   margin: 0 auto;
   max-width: 800px;
   padding: 20px;
-  }
-  
-  h1 {
+}
+
+h1 {
   text-align: center;
   margin-bottom: 20px;
-  }
-  
-  form {
+}
+
+form {
   display: flex;
   justify-content: center;
   margin-bottom: 20px;
-  }
-  
-  form input {
+}
+
+form input {
   padding: 10px;
   border: none;
   border-bottom: 2px solid #ccc;
   margin-right: 10px;
   font-size: 16px;
-  }
-  
-  form button {
+}
+
+form button {
   background-color: #2c3e50;
   color: #fff;
   border: none;
   padding: 10px 20px;
   cursor: pointer;
   font-size: 16px;
-  }
-  
-  form button:hover {
+}
+
+form button:hover {
   background-color: #1e2a33;
-  }
-  
-  ul {
+}
+
+ul {
   list-style: none;
   margin: 0;
   padding: 0;
-  }
-  
-  ul li {
+}
+
+ul li {
   margin-bottom: 10px;
   display: flex;
   justify-content: space-between;
   align-items: center;
   border: 1px solid #ccc;
   padding: 10px;
-  }
-  
-  ul li button {
+}
+
+ul li button {
   background-color: #2c3e50;
   color: #fff;
   border: none;
   padding: 5px 10px;
   cursor: pointer;
   font-size: 14px;
-  }
-  
-  ul li button:hover {
+}
+
+ul li button:hover {
   background-color: #1e2a33;
-  }
-  
-  h2 {
+}
+
+h2 {
   margin-top: 30px;
   margin-bottom: 20px;
   text-align: center;
-  }
-  
-  .favorite-card {
+}
+
+.favorite-card {
   border: 1px solid #ccc;
   padding: 10px;
   margin-bottom: 10px;
   display: flex;
   flex-wrap: wrap;
-  }
-  
-  .favorite-card h3 {
+}
+
+.favorite-card h3 {
   margin-top: 0;
   margin-bottom: 10px;
-  }
-  
-  .favorite-card p {
+}
+
+.favorite-card p {
   margin: 0;
   margin-bottom: 10px;
-  }
-  
-  .favorite-card img {
+}
+
+.favorite-card img {
   max-width: 100%;
   margin-right: 10px;
-  }
+}
+.star {
+  color: #f1c40f;
+  font-size: 1.5rem;
+  margin-right: 0.5rem;
+}
+
+.review {
+  margin-top: 1rem;
+}
+
+.review-input {
+  width: 100%;
+  min-height: 5rem;
+  padding: 0.5rem;
+  border: 1px solid #ccc;
+}
